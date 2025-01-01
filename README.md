@@ -3,6 +3,14 @@
 This project implements a multi-process calculator using C. It leverages inter-process communication (IPC) via pipes to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. Each operation is handled by a separate process, and results are stored in a file for future reference.
 
 
+## Screenshots
+Here's a glimpse of the project:
+<div style="display: flex; justify-content: center;">
+  <img src="https://github.com/user-attachments/assets/adc6862b-3d58-4967-a8a6-bf61bce5c331" alt="d1" width="30%">
+  <img src="https://github.com/user-attachments/assets/3fe15624-2255-4154-a78a-0eed1774ce56" alt="d2" width="30%">
+  <img src="https://github.com/user-attachments/assets/92c358a5-49b7-4c7f-b2bc-9abb6a5e20b3" alt="d3" width="30%">
+</div>
+
 ## Features
 
 - **Addition**
