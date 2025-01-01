@@ -125,19 +125,9 @@ make clean
 
 ---
 
-## License
 
-This project is open-source and available under the [MIT License](LICENSE).
+## Credits
 
----
+This project was developed by Beyza Yıldızlı. You can find me on [LinkedIn](https://www.linkedin.com/in/beyzayildizli/) or [GitHub](https://github.com/beyzayildizli).
 
-## Contributions
-
-Contributions are welcome! Please submit issues or pull requests via GitHub.
-
----
-
-## Author
-
-Beyza Yıldızlı
 
