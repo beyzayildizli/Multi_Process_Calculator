@@ -12,9 +12,18 @@ int main(int argc, char *argv[])
         // Read the two numbers from the pipe (pipe file descriptors passed as arguments)
         read(atoi(argv[0]), data, sizeof(data)); 
 
-        // Perform the division operation
-        // If data[1] is zero, division by zero will occur, and this may cause undefined behavior.
-        double result = data[0] / data[1]; 
+        // Check if the divisor (data[1]) is zero to prevent division by zero
+        double result;
+        if (data[1] == 0)
+        {
+            fprintf(stderr, "Error: Division by zero is undefined.\n");
+            result = 0; // Optionally set result to zero or some sentinel value
+        }
+        else
+        {
+            // Perform the division operation
+            result = data[0] / data[1];
+        }
 
         // Write the result back to the corresponding pipe
         write(atoi(argv[1]), &result, sizeof(result)); 
@@ -48,3 +57,4 @@ int main(int argc, char *argv[])
     }
     return 0;
 }
+
