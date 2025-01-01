@@ -52,8 +52,6 @@ This will generate the following executable files:
 - `division`
 - `saver`
 
----
-
 ## Usage
 
 Run the `calculator` program:
@@ -93,8 +91,6 @@ Each operation result is automatically saved to `results.txt`. Example content:
 10.00 + 20.00 = 30.00
 50.00 - 25.00 = 25.00
 ```
-
----
 
 ## Cleanup
 
