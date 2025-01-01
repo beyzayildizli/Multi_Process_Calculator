@@ -12,11 +12,6 @@ This project implements a multi-process calculator using C. It leverages inter-p
 - `results.txt`: Output file to store calculation results.
 
 
-## Requirements
-
-- GCC compiler
-
-
 ## Usage
 
 Run the following command to compile the project:
