@@ -11,19 +11,6 @@ Here's a glimpse of the project:
   <img src="https://github.com/user-attachments/assets/92c358a5-49b7-4c7f-b2bc-9abb6a5e20b3" alt="d3" width="30%">
 </div>
 
-## Features
-
-- **Addition**
-- **Subtraction**
-- **Multiplication**
-- **Division**
-- Results are saved to a `results.txt` file in the format:
-  
-  ```
-  num1 operator num2 = result
-  ```
-- Graceful termination of all child processes.
-
 
 ## File Structure
 
