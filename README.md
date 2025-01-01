@@ -2,7 +2,6 @@
 
 This project implements a multi-process calculator using C. It leverages inter-process communication (IPC) via pipes to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. Each operation is handled by a separate process, and results are stored in a file for future reference.
 
----
 
 ## Features
 
@@ -17,7 +16,6 @@ This project implements a multi-process calculator using C. It leverages inter-p
   ```
 - Graceful termination of all child processes.
 
----
 
 ## File Structure
 
@@ -27,13 +25,11 @@ This project implements a multi-process calculator using C. It leverages inter-p
 - `saver.c`: Handles saving the results of calculations to `results.txt`.
 - `results.txt`: Output file to store calculation results.
 
----
 
 ## Requirements
 
 - GCC compiler
 
----
 
 ## Compilation
 
@@ -100,7 +96,6 @@ To remove compiled files and the results file, run:
 make clean
 ```
 
----
 
 ## Implementation Details
 
@@ -119,7 +114,6 @@ make clean
 - Handles invalid inputs and division by zero gracefully.
 - Ensures proper termination of all child processes when exiting.
 
----
 
 
 ## Credits
